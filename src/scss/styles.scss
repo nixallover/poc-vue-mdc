@@ -1,3 +1,35 @@
+@use '@material/theme' with (
+    $primary: #00add8,
+    $secondary: #f59032,
+    $on-primary: #000,
+    $on-secondary: #000,
+);
+
+// Button
+@use '@material/button/mdc-button';
+@use '@material/button';
+
+// Select
+@use '@material/list/mdc-list';
+@use '@material/menu-surface/mdc-menu-surface';
+@use '@material/menu/mdc-menu';
+@use '@material/select/styles' as select;
+
+// Radio
+@use "@material/radio/styles" as radio;
+@use "@material/form-field";
+
+@use '@material/typography/mdc-typography';
+@use '@material/theme/mdc-theme';
+
+// Text field
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield/mdc-text-field";
+
 body {
+  //   background-color: #303030;
+  //   color: #fff;
   font-family: sans-serif;
 }

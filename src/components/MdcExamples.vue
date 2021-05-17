@@ -1,23 +1,26 @@
 <template>
-  <h2>Button</h2>
-
-  <h2>Icon</h2>
-
-  <h2>Chips</h2>
-
-  <h2>Select</h2>
-
-  <h2>Radio</h2>
-
-  <h2>Tabs</h2>
-
-  <h2>Textfield</h2>
+  <ButtonExamples />
+  <IconExamples />
+  <SelectExamples />
+  <RadioExamples />
+  <TextFieldExamples />
 </template>
 
 <script>
+import ButtonExamples from "./ButtonExamples.vue";
+import IconExamples from "./IconExamples.vue";
+import RadioExamples from "./RadioExamples.vue";
+import SelectExamples from "./SelectExamples.vue";
+import TextFieldExamples from "./TextFieldExamples.vue";
+
 export default {
   name: "MdcExamples",
+  components: {
+    ButtonExamples,
+    IconExamples,
+    RadioExamples,
+    SelectExamples,
+    TextFieldExamples,
+  },
 };
 </script>
-
-<style scoped></style>
